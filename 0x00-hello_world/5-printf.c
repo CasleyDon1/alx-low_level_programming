@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  *main - entry point
- *Myhello, printf task 
+ *Description, printf task 
  *Return: return 1 after program execution
  */
 int main(void)
