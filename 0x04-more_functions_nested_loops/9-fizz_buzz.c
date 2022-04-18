@@ -32,8 +32,7 @@ printf("Buzz ");
 else
 printf("Buzz");
 }
-
-else 
+else
 {
 printf("%i ", i);
 }
