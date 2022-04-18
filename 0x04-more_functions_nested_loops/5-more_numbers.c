@@ -22,8 +22,7 @@ if (result < 10)
 {
 second_number = result;
 }
-
-else 
+else
 {
 first_number = result / 10;
 second_number = result % 10;
