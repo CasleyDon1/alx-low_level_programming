@@ -5,7 +5,7 @@
  * Return: Always 0.
  */
 
-void most_numbers(void)
+void more_numbers(void)
 {
 int i;
 int first_number;
@@ -23,7 +23,7 @@ if (result < 10)
 second_number = result;
 }
 
-else
+else 
 {
 first_number = result / 10;
 second_number = result % 10;
@@ -35,7 +35,7 @@ _putchar (second_number + '0');
 result++;
 }
 i++;
-result = 0; 
+result = 0;
 _putchar ('\n');
 }
 
