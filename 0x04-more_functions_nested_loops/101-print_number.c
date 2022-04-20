@@ -21,7 +21,6 @@ void print_number(int n)
 		n1 = -n;
 		_putchar('_');
 	}
-
 	else 
 	{
 		n1 = n;
