@@ -2,9 +2,9 @@
 /**
  * string_toupper - changes all lowercase letters of a string to uppercase
  * @src: string
+ * @str: String that changes
  * Return: returns char
  */
-
 
 char *string_toupper(char *str)
 {
