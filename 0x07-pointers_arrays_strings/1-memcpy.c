@@ -15,7 +15,7 @@ unsigned int i;
 i = 0;
 while (i < n) /* Declaring WHILE */
 {
-*(dest + 1) = *(src + i); /*add 1 position dest and src*/
+*(dest + i) = *(src + i); /*add 1 position dest and src*/
 i++;
 
 } /*END WHILE*/
