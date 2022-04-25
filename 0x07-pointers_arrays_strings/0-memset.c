@@ -17,7 +17,7 @@ for (i = 0; i < n; i++)
 {
 *(s + i) = b; /*add 1 position s*/
 
-}/*END FOR*/
+} /*END FOR*/
 
 return (s);
 }
