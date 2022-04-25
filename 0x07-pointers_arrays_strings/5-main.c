@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * main - check the code
+ * main - check the code 
  *
  * Return: Always 0.
  */
@@ -12,7 +12,7 @@ char *s = "hello, world";
 char *f = "world";
 char *t;
 
-t = _strpbrk(s, f);
+t = _strstr(s, f);
 printf("%s\n", t);
 return (0);
 }
