@@ -6,7 +6,7 @@
  * @c: Character to search
  * Description: Searches an Locates a character in a string
  * Return: Pointer to the first occurrence of the character c in the string s
- * */
+ */
 char *_strchr(char *s, char c)
 {
 while (*s != '\0') /*Declaring WHILE */
