@@ -13,7 +13,7 @@ return (1);
 
 else if (n < 0) /* Base Condition */
 return (-1);
-else 
+else
 return (n * factorial(n - 1)); /* Recursive Call */
 
 }
