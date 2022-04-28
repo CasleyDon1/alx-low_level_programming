@@ -19,8 +19,7 @@ else if (i * i == n) /* Condition Base */
 return (i);
 
 return (-1);
-
-return(-1);
+return (-1);
 }
 
 /**
