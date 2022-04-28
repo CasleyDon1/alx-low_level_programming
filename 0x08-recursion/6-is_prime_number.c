@@ -3,7 +3,8 @@
 /**
  * evaluate_num - recursion loop
  * @num: num
- * @itertor: number to iterate
+ * @iterator: number to iterate
+ * Description: iterate numbers on the loop
  * Return: return 1 or 0
  */
 
