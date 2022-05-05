@@ -1,9 +1,9 @@
-#include "holberton.h"
+#include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
 
 /**
- * simple_print_buffer - prints buffer to hexa
+ * simple_print_buffer - prints buffer in hexa
  * @buffer: the address of memory to print
  * @size: the size of the memory to print
  *
@@ -27,7 +27,7 @@ void simple_print_buffer(char *buffer, unsigned int size)
 		printf("0x%02x", buffer[i]);
 		i++;
 	}
-	print("\n");
+	printf("\n");
 }
 
 /**
@@ -42,7 +42,7 @@ int main(void)
 	buffer = create_array(98, 'H');
 	if (buffer == NULL)
 	{
-		print("failed to allocate memory\n");
+		printf("failed to allocate memory\n");
 		return (1);
 	}
 	simple_print_buffer(buffer, 98);
