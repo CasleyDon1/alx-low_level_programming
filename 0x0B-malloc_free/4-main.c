@@ -4,7 +4,7 @@
 
 /**
  * print_grid - prints a grid of integers
- * @grid: the address of the two dimensional grid
+ * @grid: the address of th two dimensional grid
  * @width: width of the grid
  * @height: height of thr grid
  *
@@ -30,7 +30,7 @@ void print_grid(int **grid, int width, int height)
 }
 
 /**
- * main - check the code for ALX School students.
+ * main - check the code for ALX School Studentss.
  *
  * Return: Always 0.
  */
@@ -48,5 +48,6 @@ int main(void)
 	grid[0][3] = 98;
 	grid[3][4] = 402;
 	print_grid(grid, 6, 4);
+	free_grid(grid, 4);
 	return (0);
 }
