@@ -3,7 +3,7 @@
  * argstostr - prints args
  * @ac: takes in width of grid
  * @av: height of grid
- * Return: the args one line at a time
+ * Return: the args one line at the time
  */
 
 char *argstostr(int ac, char **av)
@@ -36,6 +36,8 @@ char *argstostr(int ac, char **av)
 			str[c] = av[a][b];
 			c++;
 		}
+		str[c] = '\n';
+		c++;
 	}
 	return (str);
 }
