@@ -2,11 +2,11 @@
 #define DOG_H
 
 /**
- * struck dog - Struck dog
- * @name: name
- * @age: age
- * @owner: owner
- * Description: This struck is for dog
+ * struct dog - structure dog
+ * @name: atribute pointer to char name's dog
+ * @age: atribute float age's dog
+ * @owner: atribute pointer to char owner's dog
+ * Description: Struct dog defines the whole atribute
  */
 
 struct dog
