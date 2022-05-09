@@ -2,12 +2,11 @@
 #include <stdio.h>
 
 /**
- * print_dog - prints a dog
- *
- * @d: dog to print 
- *
- * Return: void
+ * print_dog - prints a struct dog
+ * @d: pointer to struct type dog
+ * Return: No
  */
+
 void print_dog(struct dog *d)
 {
 	if (d == 0)
